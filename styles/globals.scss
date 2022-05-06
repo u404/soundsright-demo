@@ -1,0 +1,66 @@
+@import '~antd/dist/antd.css';
+
+$success-color: #52c41a; // 成功色
+$warning-color: #faad14; // 警告色
+$error-color: #f5222d; // 错误色
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  float: left;
+  margin-right: 2em;
+  height: 100%;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  &:hover {
+    color: #fff;
+  }
+}
+
+.main-space {
+  margin: 30px;
+  display: flex;
+}
+
+.data-row {
+  margin-bottom: 15px;
+}
+.data-col {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+.data-label {
+  font-weight: bold;
+}
+
+.success-text {
+  color: $success-color;
+}
+
+.warning-text {
+  color: $warning-color;
+}
+
+.error-text {
+  color: $error-color;
+}
